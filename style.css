@@ -37,41 +37,20 @@
 .parent{
 	padding: 10px;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1rem;
 
 }
 
 .child{
 	max-height: 450px;
+	overflow: hidden;
+	position: relative;
+	object-fit: fill;
 }
 img{
 	width:340px;
-	object-fit: cover;
-}
 
-.child-2{
-	grid-row: span 2;
 }
-
-.child-4{
-
-	grid-row: span 2;
-}
-.child-6{
-	grid-row :span 2;
-}
-
-.child-8{
-	grid-row :span 2;
-}
-
-.child-10{
-	grid-row :span 2;
-}
-.child-12{
-	grid-row :span 2;
-}
-
 
 
