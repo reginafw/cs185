@@ -1,0 +1,77 @@
+.header {
+
+}
+.nav-bar {
+	display: flex;
+}
+.nav-bar > div{
+	padding: 10px;
+	background-color: rgb(230,255,255);
+}
+.main-body {
+	display: flex;
+}
+.main-body > div{
+	padding: 10px;
+}
+
+.main-body-4 > div{
+	padding: 10px;
+}
+
+.playlist{
+	display: flex;
+}
+.playlist > div{
+	padding: 10px;
+}
+
+.title{
+	padding: 10px;
+}
+
+.description{
+	width: 200px;
+	padding: 10px;
+}
+.parent{
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1rem;
+
+}
+
+.child{
+	max-height: 450px;
+}
+img{
+	width:340px;
+	object-fit: cover;
+}
+
+.child-2{
+	grid-row: span 2;
+}
+
+.child-4{
+
+	grid-row: span 2;
+}
+.child-6{
+	grid-row :span 2;
+}
+
+.child-8{
+	grid-row :span 2;
+}
+
+.child-10{
+	grid-row :span 2;
+}
+.child-12{
+	grid-row :span 2;
+}
+
+
+
